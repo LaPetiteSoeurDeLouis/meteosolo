@@ -6,31 +6,81 @@
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="contact.js"></script>
 
-    <title>La météo c'est fantastique </title>
+    <title>La recherche de film c'est incroyable </title>
   </head>
   <body>
 
-    <label for="ville">Ville</label>
+    <label for="ville">Nom du film : </label>
     <input type="text" name="ville" value="" id="ville">
 
     <div class="button">
       <button type="button" name="chercher">Chercher</button><br>
     </div>
 
-    <button id="precedent">precedent</button>
-    <button id="suivant">suivant</button>
+    <button id="precedent" style="visibility:hidden">precedent</button>
+    <button id="suivant" style="visibility:hidden">suivant</button>
+
+<table>
+
+      <tr>
+        <td><span id="titre1"></span></td>
+        <td><span id="note1"></span> </td>
+        <td><span id="votes1"></span></td>
+        <td><span id="date1"></span></td>
+        <td><span id="img1"></span></td>
+        <td><span id="over1"></span></td>
+      </tr>
+
+      <tr>
+        <td><span id="titre2"></span></td>
+        <td><span id="note2"></span> </td>
+        <td><span id="votes2"></span></td>
+        <td><span id="date2"></span></td>
+        <td><span id="img2"></span></td>
+        <td><span id="over2"></span></td>
+      </tr>
+
+      <tr>
+        <td><span id="titre3"></span></td>
+        <td><span id="note3"></span> </td>
+        <td><span id="votes3"></span></td>
+        <td><span id="date3"></span></td>
+        <td><span id="img3"></span></td>
+        <td><span id="over3"></span></td>
+      </tr>
+
+      <tr>
+        <td><span id="titre4"></span></td>
+        <td><span id="note4"></span> </td>
+        <td><span id="votes4"></span></td>
+        <td><span id="date4"></span></td>
+        <td><span id="img4"></span></td>
+        <td><span id="over4"></span></td>
+      </tr>
+
+      <tr>
+        <td><span id="titre5"></span></td>
+        <td><span id="note5"></span> </td>
+        <td><span id="votes5"></span></td>
+        <td><span id="date5"></span></td>
+        <td><span id="img5"></span></td>
+        <td><span id="over5"></span></td>
+      </tr>
+
+      <tr>
+        <td><span id="titre6"></span></td>
+        <td><span id="note6"></span> </td>
+        <td><span id="votes6"></span></td>
+        <td><span id="date6"></span></td>
+        <td><span id="img6"></span></td>
+        <td><span id="over6"></span></td>
+      </tr>
+</table>
+
+    <span id="idfilm" style="visibility:hidden">idfilm</span>
 
 
-    <span id="titre">a</span> <br>
-
-    <span id="date"></span>
-
-    <span id="img"></span>
-
-    <span id="over"></span>
-
-
-    <input type="number" id="idfilm" style="visibility: hidden;"></input>
+    <button id="boutontop6" href="top6()">top6</button>
 
 
 
